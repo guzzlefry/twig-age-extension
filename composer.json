@@ -1,0 +1,27 @@
+{
+  "name": "guzzlefry/twig-age-extension",
+  "description": "Simple Twig extension to calculate the age in years based on a DateTime instance",
+  "keywords": ["templating", "twig", "age", "date"],
+  "license": "MIT",
+  "homepage": "http://github.com/guzzlefry/twig-age-extension#README",
+  "authors": [
+    {
+      "name": "Gus King",
+      "email": "gus@gusking.com",
+      "homepage": "http://www.gusking.com"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/guzzlefry/twig-age-extension/issues",
+    "source": "https://github.com/guzzlefry/twig-age-extension"
+  },
+  "require": {
+    "twig/twig": ">=1.12",
+    "php": ">=5.3.0"
+  },
+  "autoload": {
+    "psr-0": {
+      "Guzzlefry\\Twig": "src/"
+    }
+  }
+}
